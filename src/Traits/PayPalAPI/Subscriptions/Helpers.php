@@ -471,4 +471,8 @@ trait Helpers
 
         return $this;
     }
+
+    public function getBillingPlan() {
+      return $this->billing_plan;
+    }
 }
